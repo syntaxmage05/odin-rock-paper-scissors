@@ -4,3 +4,10 @@ function getComputerChoice() {
   const randomChoice = Math.floor(Math.random() * choices.length)
   return choices[randomChoice]
 }
+
+function getHumanChoice() {
+  const humanChoice = prompt("Please choose between rock, paper or scissors")
+  console.log(humanChoice)
+}
+
+getHumanChoice()
