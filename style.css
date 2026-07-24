@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.scores {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-style: oblique;
+  color: yellow;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-grow: 1;
+}
+
+.reset {
+  color: white;
+  background-color:  grey;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid beige;
+  display: block;
+  margin: 0 auto;
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.btns {
+  display: flex;
+  gap: 30px;
+}
+
+.btns button {
+  border-radius: 20%;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
